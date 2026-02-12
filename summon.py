@@ -1,0 +1,4 @@
+import minescript 
+
+for i in range(15):
+    minescript.execute('/summon zombie ~ 120 ~ {NoGravity:1b,Silent:1b,Team:"test",Health:255f,Tags:["zombie"],CustomName:{"bold":true,"color":"black","italic":true,"shadow_color":-14869215,"text":"test_dummy"},equipment:{feet:{id:"minecraft:netherite_boots",count:1},legs:{id:"minecraft:netherite_leggings",count:1},chest:{id:"minecraft:netherite_chestplate",count:1},head:{id:"minecraft:netherite_helmet",count:1}},attributes:[{id:"minecraft:armor",base:255},{id:"minecraft:attack_damage",base:0},{id:"minecraft:attack_speed",base:0},{id:"minecraft:max_health",base:255},{id:"minecraft:movement_speed",base:0}]}')
